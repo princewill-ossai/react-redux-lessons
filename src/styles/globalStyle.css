@@ -1,0 +1,26 @@
+* {
+    font-weight: bold;
+}
+
+.list-wrapper {
+    margin: auto;
+    text-align: center;
+}
+
+.input-wrapper {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(0, 0, 255);
+    color: whitesmoke;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.list {
+    padding-block: 8px;
+}
