@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   movies: [
     { id: 1, name: "Interstellar" },
-    { id: 2, name: "Harry Potter" },
+    { id: 2, name: "Shark movie" },
   ],
 };
 

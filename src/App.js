@@ -1,12 +1,12 @@
 import './App.css';
-import MovieInput from './components/MovieInput';
-import { MovieList } from './components/MovieList';
+import Login from './components/Login';
+import Profile from './components/Profile';
 
 function App() {
   return (
     <>
-      <MovieInput />
-      <MovieList />
+      <Profile />
+      <Login />
     </>
   )
 }

@@ -4,7 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
-import { store } from './store';
+import { configureStore } from '@reduxjs/toolkit';
+import userReducer from "../src/reducers/User.jsx"
+
+const store = configureStore({
+  reducer: {
+    user: userReducer,
+  },
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
