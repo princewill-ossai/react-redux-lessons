@@ -7,8 +7,8 @@ const Login = () => {
 
     return (
         <div>
-            <button onClick={() => { dispatch(login({ name: "John", age: 46, email: "email@gmail.com" })) }}>Login</button>
-            <button onClick={() => {dispatch(logout())}}>Logout</button>
+            <button onClick={() => { dispatch(login({ name: "john", age: 40, email: "email@gmail.com" })) }}>Login</button>
+            <button onClick={() => { dispatch(logout()) }}>Logout</button>
         </div>
     )
 }
